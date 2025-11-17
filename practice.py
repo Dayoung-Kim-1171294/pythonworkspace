@@ -14,10 +14,10 @@ clients = 0
 for number in range(1, 51):
     mins = random.randint(5, 50)
     
-    if mins >= 5 and mins <= 15:
-        print(f"[o] {number}번째 손님 (소요시간 : {mins}분)")
+    if 5 <= mins <= 15:
+        print(f"[o] {number} clients (time : {mins} mins)")
         clients += 1
     else:
-        print(f"[ ] {number}번째 손님 (소요시간 : {mins}분)")
+        print(f"[ ] {number} clients (time : {mins} mins)")
 
-print(f"\n총 탑승 승객 : {clients}분")
+print(f"\ntotal clients : {clients}")
