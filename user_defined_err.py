@@ -26,3 +26,7 @@ except BigNumberError as err:
     # print(err.__str__())
     # print(err.msg)
     print(err)
+
+# executed always
+finally:
+    print("End of program.")
