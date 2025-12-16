@@ -7,3 +7,5 @@ from travel import vietnam
 trip_to2 = vietnam.VietnamPackage()
 trip_to2.detail()
 
+from travel import *
+trip_to3 = thailand.ThailandPackage()
